@@ -1,0 +1,10 @@
+# Bare Git mirrors cloned during migration
+cloned-repos/
+
+# Push logs / transient migration outputs
+push_logs/
+*.log
+
+# Local secrets / env files
+.env
+.env.*
